@@ -1,9 +1,9 @@
 {
 	// target region - for example 'us-east-1' or 'eu-west-1'
-	"region" : "eu-west-1",
+	"region" : "us-east-1",
 	
 	// firehose destination information
-	"firehoseDeliveryBucket" : "my-backup-bucket",
+	"firehoseDeliveryBucket" : "js-dynamodb-livebackup",
 	"firehoseDeliveryPrefix" : "dynamodb/backup",
 	
 	// the ARN of the IAM role that Kinesis Firehose will use to write to S3
